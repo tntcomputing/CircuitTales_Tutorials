@@ -3,9 +3,7 @@
     "version": "1.0.0",
     "description": "Signal Analyst Tutorial for micro:bit - Learn to code with interactions and signals",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "README.md",

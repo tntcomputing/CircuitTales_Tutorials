@@ -5,8 +5,7 @@ A collection of educational micro:bit tutorials that combine storytelling with p
 ## Available Tutorials
 
 ### 1. Signal Analyst
-**Path:** `signal-analyst/tutorial.md`  
-**URL:** `https://makecode.microbit.org/#tutorial:github:YOUR_USERNAME/circuittales-tutorials/signal-analyst/tutorial`
+**URL:** `https://makecode.microbit.org/#tutorial:github:tntcomputing/CircuitTales_Tutorials/signal-analyst/tutorial`
 
 Learn basic programming concepts through interactive signals and user interactions. Students will work with buttons, gestures, and conditional logic.
 
@@ -22,46 +21,36 @@ Learn basic programming concepts through interactive signals and user interactio
 
 ## How to Use These Tutorials
 
-### Option 1: Direct URL Loading
-Replace `YOUR_USERNAME` with your GitHub username and use these URLs:
+### Direct URL Loading
+Use these URLs directly in your browser:
 
 ```
-https://makecode.microbit.org/#tutorial:github:YOUR_USERNAME/circuittales-tutorials/signal-analyst/tutorial
+https://makecode.microbit.org/#tutorial:github:tntcomputing/CircuitTales_Tutorials/signal-analyst/tutorial
 ```
 
-### Option 2: Import in MakeCode
+### Import in MakeCode
 1. Go to [MakeCode for micro:bit](https://makecode.microbit.org)
-2. Click "Import" or the GitHub import feature
-3. Enter: `https://github.com/YOUR_USERNAME/circuittales-tutorials`
-4. Navigate to the specific tutorial folder
-
-### Option 3: Local Development
-If running a local MakeCode server:
-1. Clone this repository
-2. Use the tutorial paths directly in your local instance
+2. Click "Import" 
+3. Enter the GitHub URL for the specific tutorial folder
 
 ## Tutorial Structure
 
-Each tutorial follows this structure:
+Each tutorial is a self-contained folder:
 ```
 tutorial-name/
 ├── tutorial.md     # Main tutorial content
 ├── README.md       # Tutorial-specific documentation
-└── assets/         # Images, sounds, etc. (if needed)
+└── pxt.json        # MakeCode configuration (core dependencies only)
 ```
 
 ## Adding New Tutorials
 
 1. Create a new folder in this repository
 2. Add `tutorial.md` with your tutorial content
-3. Add `README.md` with tutorial description
-4. Update the main README.md (this file) with the new tutorial
-5. Update `pxt.json` to include the new tutorial files
+3. Add `README.md` with tutorial description  
+4. Add `pxt.json` with basic configuration (copy from _template)
+5. Update this main README.md with the new tutorial
 
 ## About CircuitTales
 
 CircuitTales is an educational project designed to make programming accessible and engaging through storytelling. Each tutorial weaves coding concepts into narrative experiences that help students learn while having fun.
-
-## Contributing
-
-Feel free to contribute new tutorials or improvements to existing ones. Please follow the established structure and documentation format.
