@@ -1,0 +1,21 @@
+{
+    "name": "signal-analyst-tutorial",
+    "version": "1.0.0",
+    "description": "Signal Analyst Tutorial for micro:bit - Learn to code with interactions and signals",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "tutorial.md"
+    ],
+    "testFiles": [],
+    "targetVersions": {
+        "target": "8.1.0",
+        "targetId": "microbit"
+    },
+    "supportedTargets": ["microbit"],
+    "preferredEditor": "blocksprj"
+}
