@@ -1,9 +1,0 @@
-{
-    "name": "signal-analyst",
-    "dependencies": {
-        "core": "*"
-    },
-    "files": [
-        "tutorial.md"
-    ]
-}
