@@ -1,0 +1,9 @@
+{
+    "name": "signal-analyst",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "signal-analyst.md"
+    ]
+}
